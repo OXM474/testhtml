@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Exercises</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <style>
+        .feedback{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<form action="sent">
+<body style="background-color: rgb(60, 77, 80); color: white ;">
+    <div>
+        <a href="selfprofile.html#connectme">Connect me</a>
+        <h3>Choose your marital status: </h3>
+        <input type="radio" id="single" name="marital" value="single">
+        <label for="single">Single</label>
+        <input type="radio" name="marital" id="married" value="married">
+        <label for="married">Married</label>
+        <input type="radio" name="marital" id="widow" value="widow">
+        <label for="widow">Widow</label>
+        <input type="radio" name="marital" id="notsay" value="notsay">
+        <label for="notsay">Prefer not to say</label>
+    </div>
+    <br>
+    <div>
+        <h3>Indicate whether you have any medical history of diabetes: </h3>
+        <input type="radio" name="medical" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="medical" id="no" value="no">
+        <label for="no">No</label>
+    </div>
+    <br>
+    <div>
+        <label for="feedback">Write feedback for a food delivery service.</label>
+        <textarea class="feedback" placeholder="please enter your feedback"></textarea>
+    </div>
+    <br>
+    <div>
+        <h3>Select your favorite sport: </h3>
+        <input type="checkbox" name="football" id="football">
+        <label for="football">Football</label>
+
+        <input type="checkbox" name="basketball" id="basketball">
+        <label for="basketball">Basketball</label>
+
+        <input type="checkbox" name="tennis" id="tennis">
+        <label for="tennis">Tennis</label>
+
+        <input type="checkbox" name="swimming" id="swimming">
+        <label for="swimming">Swimming</label>
+
+        <input type="checkbox" name="cycling" id="cycling">
+        <label for="cycling">Cycling</label>
+
+        <input type="checkbox" name="running" id="running">
+        <label for="running">Running</label>
+
+        <input type="checkbox" name="tabletennis" id="tabletennis">
+        <label for="tabletennis">TableTennis</label>
+
+        <input type="checkbox" name="golf" id="golf">
+        <label for="golf">Golf</label>
+    </div>
+    <br>
+    <div>
+        <input type="reset" >
+        <input type="submit" value="Sent">
+    </div>
+</form>
+</body>
+</html>

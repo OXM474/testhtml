@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+    margin: 0px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 30px 15px 15px 30px;
+    
+}
+.fire{
+    border: solid 10px black;
+    border-radius : 15% ;
+    background-color: red ;
+}
+.ground{
+    border: solid 10px black;
+    border-radius : 15% ;
+    background-color: rgb(33, 32, 32);
+}
+.earth{
+    border: solid 10px white;
+    border-radius : 15% ;
+    background-color: green ;
+}
+.under{
+    border: solid 10px white;
+    border-radius : 15% ;
+    background-color: yellow;
+}
